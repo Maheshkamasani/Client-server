@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println("server listening on 3000")
+	fmt.Println("server listening on 8080")
 	listener, err := net.Listen("tcp", "localhost:8080")
 	if err != nil {
 		log.Fatalln(err)
