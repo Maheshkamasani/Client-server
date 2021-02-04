@@ -16,7 +16,7 @@ func main() {
 	if err != nil {
 		log.Fatalln(err)
 	}
-	fmt.Println("Message sent: Hello Server!")
+	fmt.Println("Message sent: Hello! Server")
 
 	_, err = conn.Write([]byte("How are you?"))
 	if err != nil {
